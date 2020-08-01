@@ -58,7 +58,8 @@ We can use **kubectl apply -f tiff_ingest_test.yaml** to start the pod and then 
 
 # 6. Finalizing Your Pod
 
-Once you are sure that your pod is running correctly, you can have your commands automatically run, which is seen in 
+Once you are sure that your pod is running correctly, you can have your commands automatically run, which is seen in **args** section of *image_processing/tiff_ingest.yaml*.
+
 
 
 
