@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name: tiff-analysis
+ name: tiff-ingest
 spec:
   containers:
-  - name: tiff-analysis
+  - name: tiff-ingest
     image: nrezaee/tiff-ingest:latest
     imagePullPolicy: Always
     resources:
