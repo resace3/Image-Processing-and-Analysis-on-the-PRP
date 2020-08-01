@@ -16,7 +16,7 @@ spec:
         memory: "2Gi"
     command: ["/bin/bash", "-c" ]
     args:
-      - python3 download_raw.py && python3 process_images.py && python3 upload_processed.py
+      - python3 sleep 1h
     env:
       - name: TYPE
         value: "type-1-imaging"
