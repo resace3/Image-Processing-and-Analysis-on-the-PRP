@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: tiff-analysis
+spec:
+  containers:
+  - name: tiff-analysis
+    image: nrezaee/tiff-ingest:latest
+    imagePullPolicy: Always
+    resources:
+      requests:
+        cpu: ".1"
+        memory: "1Gi"
+      limits:
+        cpu: "1"
+        memory: "2Gi"
+    command: ["/bin/bash", "-c" ]
+    args:
+      - python3 download_raw.py && python3 process_images.py && python3 upload_processed.py
+    env:
+      - name: TYPE
+        value: "type-1-imaging"
+      - name: UUID
+        value: "2020-07-28-rezaee"
+    volumeMounts:
+      - name: "prp-s3"
+        mountPath: "/root/.aws/credentials"
+        subPath: "credentials"
+      - name: "prp-s3"
+        mountPath: "/root/config"
+        subPath: "config"
+      - name: "ram-disk"
+        mountPath: "/tmp/tfrecords"
+  restartPolicy: Never
+  volumes:
+    # Secrets file for nautilus s3 credentials .aws/credentials and .s3cfg
+    - name: prp-s3
+      secret:
+        secretName: prp-s3
+    # RAM disk
+    - name: ram-disk
+      emptyDir:
+         medium: "Memory"
