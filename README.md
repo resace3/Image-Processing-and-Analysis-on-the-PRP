@@ -50,6 +50,16 @@ After you are done building your container, you should use **docker push nrezaee
 
 # 5. Test Your Container Running in Kubernetes Pod
 
+Now that have you built your own docker container, you can run and test it in a pod. 
+
+We will build a pod to test the container we built in step 4 with *image_processing/tiff_ingest_test.yaml*. Notice how the **args** section of *image_processing/tiff_ingest_test.yaml* is set to **sleep 1h**. 
+
+We can use **kubectl apply -f tiff_ingest_test.yaml** to start the pod and then use **kubectl exec -it tiff-ingest /bin/bash** to get to the command line of the Kubernetes pod. From here you can start testing scripts that you copied in your Dockerfile. Here is a helpful [link](https://www.youtube.com/watch?v=6q5FfhZRzVQ) on **kubectl exec** 
+
+# 6. Finalizing Your Pod
+
+Once you are sure that your pod is running correctly, you can have your commands automatically run, which is seen in 
+
 
 
 
