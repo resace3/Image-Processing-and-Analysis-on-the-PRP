@@ -1,6 +1,8 @@
 # Getting Started With the PRP
 
-# 1.
+
+
+# 1. Connecting to the Pacific Research Platform
 
 Sign in with your Caltech credentials at https://nautilus.optiputer.net/ , and as an admin, I can approve you to start using the free computing power offered to researchers. 
 
@@ -19,7 +21,7 @@ In order to run your script, you will need to put it in a docker container, whic
 
 ![Kube in Pod](https://github.com/resace3/Image-Processing-and-Analysis-on-the-PRP/blob/master/docs/kube_in_docker.PNG)
 
-# 2.
+# 2. Enabling Docker and Kubernetes
 
 You will have to first download Docker [here](https://docs.docker.com/get-docker/).
 
@@ -29,7 +31,7 @@ Once you download docker be sure to enable kubernetes by going into the Docker D
 
 Chekc
 
-# 3. 
+# 3. Kuberentes Test and Commands
 
 Once you have followed the above steps, you should be able to run the hello_world.yaml file with **kubectl apply -f hello_world.yaml**
 
