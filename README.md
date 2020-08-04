@@ -1,5 +1,12 @@
 # Getting Started With the PRP
 
+The Pacific Research Platfrom (PRP) is a free tool funded by the National Research Foundation for researchers to use. The platform is currently being used by 100+ labs in California. 
+
+Here are links with more infromation on the PRP:
+https://pacificresearchplatform.org/
+https://citris-uc.org/connected-communities/project/pacific-research-platform-uc-san-diego-uc-berkeley-lead-creation-of-west-coast-big-data-freeway-system/
+https://pacificwave.net/files/projects/PRP_Overview_%C6%923.pdf
+
 
 
 # 1. Connecting to the Pacific Research Platform
@@ -32,6 +39,8 @@ Once you download docker be sure to enable kubernetes by going into the Docker D
 Chekc
 
 # 3. Kuberentes Test and Commands
+
+**Before running anything I highly recommend you read https://pacificresearchplatform.org/userdocs/running/jobs/. In the link, they show how to run Kubernetes Jobs on the PRP, but before you run Kuberenetes Jobs on the PRP, it is best to learn to run Kubernetes Pods.**
 
 Once you have followed the above steps, you should be able to run the hello_world.yaml file with **kubectl apply -f hello_world.yaml**
 
