@@ -16,7 +16,7 @@ https://pacificwave.net/files/projects/PRP_Overview_%C6%923.pdf
 
 Sign in with your Caltech credentials at https://nautilus.optiputer.net/ , and as an admin, I can approve you to start using the free computing power offered to researchers. 
 
-Once you have signed in and I have approved you, get your config file by clicking "Get Config" in the upper right hand corner
+Once you have signed in, email me and I will approve you.Then you will be able to get your config file by clicking "Get Config" in the upper right hand corner
 
 ![Image of get config](https://github.com/resace3/Image-Processing-and-Analysis-on-the-PRP/blob/master/docs/Capture.PNG)
 
