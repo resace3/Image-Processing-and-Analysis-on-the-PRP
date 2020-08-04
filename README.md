@@ -43,7 +43,7 @@ Chekc
 
 # 3. Kuberentes Test and Commands
 
-**Before running anything I highly recommend you read https://pacificresearchplatform.org/userdocs/running/jobs/. In the link, they show how to run Kubernetes Jobs on the PRP, but before you run [Kuberenetes Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/) on the PRP, which is similar to runnning [Kubernetes Pods](https://kubernetes.io/docs/concepts/workloads/pods/).**
+**Before running anything I highly recommend you read https://pacificresearchplatform.org/userdocs/running/jobs/. In the link, they show how to run [Kuberenetes Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/) on the PRP, which is similar to running [Kubernetes Pods](https://kubernetes.io/docs/concepts/workloads/pods/).**
 
 Once you have followed the above steps, you should be able to run the hello_world.yaml file with **kubectl apply -f hello_world.yaml**
 
