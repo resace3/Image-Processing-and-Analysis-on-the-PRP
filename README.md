@@ -3,8 +3,11 @@
 The Pacific Research Platfrom (PRP) is a free tool funded by the National Research Foundation for researchers to use. The platform is currently being used by 100+ labs in California. 
 
 Here are links with more infromation on the PRP:
+
 https://pacificresearchplatform.org/
+
 https://citris-uc.org/connected-communities/project/pacific-research-platform-uc-san-diego-uc-berkeley-lead-creation-of-west-coast-big-data-freeway-system/
+
 https://pacificwave.net/files/projects/PRP_Overview_%C6%923.pdf
 
 
