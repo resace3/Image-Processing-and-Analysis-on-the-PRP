@@ -74,6 +74,8 @@ We can use **kubectl apply -f tiff_ingest_test.yaml** to start the pod and then 
 
 Once you are sure that your pod is running correctly, you can have your commands automatically run, which is seen in **args** section of *image_processing/tiff_ingest.yaml*.
 
+You can check how your pod is managing resources at https://grafana.nautilus.optiputer.net/d/85a562078cdf77779eaa1add43ccec1e/kubernetes-compute-resources-namespace-pods?orgId=1&refresh=10s&var-datasource=default&var-cluster=&var-namespace=cai-lab 
+
 
 
 
